@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "description": "project for freecodecamp",
   "main": "index.js",
+  "engines": {
+    "node" : "4.8.4"
+  },
   "scripts": {
     "start" : "node index.js",
     "test": "mocha"
   },
   "dependencies": {
-    "express":"~4.15.5"
+    "express":"~4.15.5",
+    "mocha": "~3.5.3"
   },
   "repository": {
     "type": "git",
