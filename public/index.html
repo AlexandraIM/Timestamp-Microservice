@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div>
-            <p>Timespan Microservice</p>
-        </div>
-    </body>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        a {
+            color: darkred;
+            text-decoration: none;
+        }
+        
+        h2 {
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./">
+        <h1>Timestamp Microservice</h1>
+    </a>
+    <h2>Example Usage</h2>
+    <div>
+        <a href="./December%2015,%202015" target="_blank">http://timestamp-microserice.herokuapp.com/December%2015,%202015</a>
+        <br>
+        <a href="./1450137600" target="_blank">http://timestamp-microserice.herokuapp.com/1450137600</a>
+    </div>
+    <h2>Example Output</h2>
+    <div>
+        <code>
+                { "unix": 1450137600, "natural": "December 15, 2015" }
+            </code>
+    </div>
+</body>
+
 </html>

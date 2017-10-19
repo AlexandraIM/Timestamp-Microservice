@@ -10,7 +10,7 @@ describe('Convert dates from query string', function() {
 
     describe('convertDate("December 15, 2015")', function() {
         it('shuld return object with 2 dates format', function() {
-            assert.equal(convert.convertDate("December 15, 2015"), { "unix": 1450137600, "natural": "December 15, 2015" });
-        })
-    })
+            assert.equal(convert.convertDate("December 15, 2015"), { "unix": 1450130600, "natural": "December 15, 2015" });
+        });
+    });
 });

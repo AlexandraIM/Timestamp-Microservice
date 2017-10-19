@@ -7,13 +7,15 @@ exports.convertDate = function(data) {
         "natural": null
     };
     if (isNumber) {
-        var dateString = moment.unix(data).format('MMMM DD, YYYY');
+        //convert unix to normal date
+        var dateString = moment.unix(data).format('MMMM D, YYYY');
         result = {
             "unix": data,
             "natural": dateString
         };
     } else {
-        var unixDate = moment(data, 'MMMM DD YYYY').format('X');
+        //convert normal date to unix
+        var unixDate = moment(data, 'MMMM D YYYY').format('X');
         result = {
             "unix": parseInt(unixDate),
             "natural": data
