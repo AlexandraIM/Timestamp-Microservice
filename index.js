@@ -3,7 +3,7 @@ var express = require('express');
 var convert = require('./convert');
 
 var app = express();
-var port = 5000;
+var port = process.env.PORT || 5000;
 app.use(express.static(__dirname + '/public'));
 
 app.get('/:dateToConvert', function(request, responce) {
