@@ -3,9 +3,9 @@ Timestamp Microservice for FreeCodeCamp Project
 
 Example Usage
 
-http://timestamp-microserice.herokuapp.com/November%2020,%202017
+https://mytimestamp-microservice.glitch.me/November%2020,%202017 
 
-http://timestamp-microserice.herokuapp.com/1511128800
+https://mytimestamp-microservice.glitch.me/1511128800
 
 Example Output
 
